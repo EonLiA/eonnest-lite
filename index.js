@@ -133,7 +133,8 @@ bot.catch(err => console.error('[bot]', err.message));
 // ===== 启动 =====
 (async () => {
   db.getDB();
-  console.log('[boot] eonnest-lite | provider:', PROVIDER, '| model:', config.ai.model, '| 向量:', embedding.enabled() ? 'on' : 'off');
+  console.log('eonnest-lite · based on eonnest by Remedy & Sei');
+  console.log('[boot] provider:', PROVIDER, '| model:', config.ai.model, '| 向量:', embedding.enabled() ? 'on' : 'off');
   embedding.backfillMissing().catch(() => {});
   scheduler.start();
   await bot.api.deleteWebhook({ drop_pending_updates: false }).catch(() => {});
