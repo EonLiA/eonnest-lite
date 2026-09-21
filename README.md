@@ -1,3 +1,17 @@
+<div align="center">
+
+`記憶する、だから隣にいる意味がある。`
+
+**eonnest-lite** — a self-hosted AI companion with long-term memory
+
+[![Node.js](https://img.shields.io/badge/Node.js-20+-339933?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org)
+[![Telegram](https://img.shields.io/badge/Telegram-Bot_API-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://core.telegram.org/bots)
+[![License: MIT](https://img.shields.io/badge/License-MIT-A0A0A0?style=flat-square)](LICENSE)
+
+</div>
+
+---
+
 # eonnest-lite
 
 一个跑在 Telegram 上、有长期记忆的 AI 陪伴。自己的服务器，自己的人设，自己的记忆库。
