@@ -54,7 +54,7 @@
 
 在你的机器上装好 Claude Code，然后跟它说：
 
-> 帮我部署 eonnest-lite：clone https://github.com/你的用户名/eonnest-lite ，装依赖，跑 npm run setup，然后用 pm2 启动
+> 帮我部署 eonnest-lite：clone https://github.com/yeruanruan09-star/eonnest-lite ，装依赖，跑 npm run setup，然后用 pm2 启动
 
 它会一步步问你 token 和 key，填进去就完了。
 
@@ -66,7 +66,7 @@ curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt-get install -y nodejs build-essential python3
 
 # 2. 下载代码
-git clone https://github.com/你的用户名/eonnest-lite
+git clone https://github.com/yeruanruan09-star/eonnest-lite
 cd eonnest-lite
 npm install
 
@@ -93,7 +93,7 @@ pm2 startup   # 按它输出的那行命令再跑一次，开机自启
 ### 方式三：Docker
 
 ```bash
-git clone https://github.com/你的用户名/eonnest-lite
+git clone https://github.com/yeruanruan09-star/eonnest-lite
 cd eonnest-lite
 npm run setup          # 先在本机生成 .env / config.json / persona.md
 docker compose up -d   # 然后起容器
