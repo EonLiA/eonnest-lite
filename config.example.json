@@ -1,0 +1,33 @@
+{
+  "ai": {
+    "name": "小季",
+    "model": "claude-sonnet-4-6",
+    "summaryModel": "claude-haiku-4.5",
+    "maxTokens": 2000
+  },
+  "user": {
+    "name": "你",
+    "city": "Tokyo",
+    "lat": 35.6762,
+    "lon": 139.6503,
+    "timezone": "Asia/Tokyo"
+  },
+  "chat": {
+    "bufferSec": 3,
+    "keepBudget": 8000,
+    "summaryTrigger": 24000
+  },
+  "retrieval": {
+    "topK": 6,
+    "minScore": 0.4
+  },
+  "scheduler": {
+    "enabled": true,
+    "cooldownMin": 15,
+    "messages": [
+      { "time": "07:30", "prompt": "早上了，主动发一条起床消息。可以提到今天天气，自然一点。", "enabled": true },
+      { "time": "12:30", "prompt": "中午了，问问对方吃饭没有。不要说教。", "enabled": true },
+      { "time": "23:30", "prompt": "该睡了，说晚安或者催睡。如果知道明天有安排就顺口提一句。", "enabled": true }
+    ]
+  }
+}

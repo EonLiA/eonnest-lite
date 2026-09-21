@@ -1,0 +1,10 @@
+services:
+  eonnest-lite:
+    build: .
+    container_name: eonnest-lite
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./data:/app/data
+      - ./config.json:/app/config.json
+      - ./persona.md:/app/persona.md
