@@ -231,11 +231,13 @@ data/              运行数据（数据库、对话历史），备份这个文�
 
 ---
 
-## 致谢
+## 致谢 & License
 
 架构、检索算法、缓存结构、摘要策略全部来自 [eonnest](https://eonnest.cc)。这个仓库是把一个人的家拆出一间毛坯房，方便别人也盖一间。
 
-MIT License
+MIT License · Based on [eonnest](https://github.com/EonLiA) by Remedy & Sei
+
+Fork、改、分发都随意。保留这行署名就好。
 ---
 
 ## 后记
